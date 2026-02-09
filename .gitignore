@@ -1,5 +1,5 @@
 cache/
 __pycache__/
-data/tmp
+data/tmp/*
 venv/
 .venv/
