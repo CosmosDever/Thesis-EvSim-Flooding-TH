@@ -3,3 +3,6 @@ __pycache__/
 data/tmp/*
 venv/
 .venv/
+
+data/processed/*
+!data/processed/hatyai_boundary.geojson
