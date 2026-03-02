@@ -5,3 +5,6 @@ pandas
 numpy
 geopandas
 joblib
+beautifulsoup4
+shapely
+lxml
