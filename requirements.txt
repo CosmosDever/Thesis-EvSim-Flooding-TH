@@ -8,3 +8,4 @@ joblib
 beautifulsoup4
 shapely
 lxml
+scipy # optional dependenct for osmnx
