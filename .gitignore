@@ -5,4 +5,4 @@ venv/
 .venv/
 
 data/processed/*
-!data/processed/hatyai_boundary.geojson
+!data/processed/*.geojson
