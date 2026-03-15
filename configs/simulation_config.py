@@ -18,7 +18,10 @@ FEMALE_POPULATION = 2500
 TOTAL_POPULATION = MALE_POPULATION + FEMALE_POPULATION
 HOUSEHOLDS = 3535
 
-# 06_flood_attachment
+# 06_evacuation_destination
+OUT_CITY_FRAC = 0
+
+# 07_flood_attachment
 N_JOBS = 24
 RAW_FLOOD_CONFIG = [
     {
@@ -36,5 +39,3 @@ LEVEL_TO_DEPTH = {0: 0.0, 1: 0.5, 2: 1.0, 3: 1.5, 4: 2.0, 5: 2.5}
 
 
 
-
-OUT_CITY_FRAC = 0
