@@ -37,5 +37,6 @@ RAW_FLOOD_CONFIG = [
 TIME_STEP_FREQ = "1h"
 LEVEL_TO_DEPTH = {0: 0.0, 1: 0.5, 2: 1.0, 3: 1.5, 4: 2.0, 5: 2.5}
 
-
-
+# 08_transportation_model
+TRANSPORTATION_MODE_PROBS = {"walk": 0.2, "drive": 0.8}
+RANDOM_SEED = 12345 # seed for reproducibility
