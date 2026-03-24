@@ -7,3 +7,4 @@ venv/
 data/processed/*
 !data/processed/*.geojson
 data/result
+notebooks_executed

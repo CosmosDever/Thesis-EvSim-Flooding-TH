@@ -5,7 +5,7 @@ LANE_WIDTH_M = 3.5
 DEFAULT_LANES = 1
 
 # 04_shelters_and_reachability
-SHELTERS_CSV_PATH = "../data/raw/shelter/hatyai_shelters.csv"
+SHELTERS_CSV_PATH = "shelter/hatyai_shelters.csv"
 SHELTERS_DEFAULT_CAPACITY = 750
 
 # Optional: mirror edges to allow reverse travel in reachability checks
@@ -23,13 +23,14 @@ OUT_CITY_FRAC = 0
 
 # 07_flood_attachment
 N_JOBS = 24
+# Path start at data/raw/
 RAW_FLOOD_CONFIG = [
     {
-        "path": "../data/raw/flood/so.csv",
+        "path": "flood/so.csv",
         "timestamp": "2025-11-21 06:00:00",
     },
     {
-        "path": "../data/raw/flood/bc5_20251124_2200.csv",
+        "path": "flood/bc5_20251124_2200.csv",
         "timestamp": "2025-11-24 22:00:00",
     },
 ]
