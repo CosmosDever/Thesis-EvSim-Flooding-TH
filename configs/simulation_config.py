@@ -40,3 +40,20 @@ LEVEL_TO_DEPTH = {0: 0.0, 1: 0.5, 2: 1.0, 3: 1.5, 4: 2.0, 5: 2.5}
 # 08_transportation_model
 TRANSPORTATION_MODE_PROBS = {"walk": 0.2, "drive": 0.8}
 RANDOM_SEED = 12345 # seed for reproducibility
+
+# 09_evacuation_simulation
+MODE_SPEED_KMH = {
+    "walk": 5.0,   # walking 4–5 km/h
+    "drive": 50.0  # urban driving 40–60 km/h
+}
+# Flood slowdown factors by level (multiplicative). Levels >= impassable_level drop the edge.
+FLOOD_SLOWDOWN = {
+    0: 1.0,   # dry
+    1: 0.5,
+    2: 0.2,
+    3: 0.0,   # level 3+ impassable by rule below
+    4: 0.0,
+    5: 0.0,
+}
+IMPASSABLE_FLOOD_LEVEL = 3
+BIDIR_EVAC = True
