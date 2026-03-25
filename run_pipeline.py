@@ -1,8 +1,11 @@
 import papermill as pm
 from pathlib import Path
+from datetime import datetime
 
 output_dir = Path("notebooks_executed")
 output_dir.mkdir(exist_ok=True)
+
+RESULT_FOLDER_NAME = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
 notebooks = [
     "notebooks/01_data_preparation.ipynb",
@@ -14,6 +17,7 @@ notebooks = [
     "notebooks/07_flood_attachment.ipynb",
     "notebooks/08_transportation_model.ipynb",
     "notebooks/09_evacuation_simulation.ipynb",
+    "notebooks/10_visualization.ipynb"
 ]
 
 for nb in notebooks:
@@ -22,7 +26,10 @@ for nb in notebooks:
 
     pm.execute_notebook(
         nb_path,
-        output
+        output,
+        parameters={
+            "RESULT_FOLDER_NAME": RESULT_FOLDER_NAME
+        }
     )
 
-print("Pipeline finished.")
+print(f"Pipeline finished. Result folder: {RESULT_FOLDER_NAME}")
