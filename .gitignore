@@ -3,3 +3,8 @@ __pycache__/
 data/tmp/*
 venv/
 .venv/
+
+data/processed/*
+!data/processed/*.geojson
+data/result
+notebooks_executed
