@@ -1,5 +1,9 @@
 # This config is used inside notebooks directory, so the path should start inside notebooks/
 
+# Seed for reproducibility
+# Used by population_assignment and transportation_model notebook
+RANDOM_SEED = 12345
+
 # 03_network_capacity
 LANE_WIDTH_M = 3.5
 DEFAULT_LANES = 1
@@ -40,7 +44,6 @@ LEVEL_TO_DEPTH = {0: 0.0, 1: 0.5, 2: 1.0, 3: 1.5, 4: 2.0, 5: 2.5}
 
 # 08_transportation_model
 TRANSPORTATION_MODE_PROBS = {"walk": 0.2, "drive": 0.8}
-RANDOM_SEED = 12345 # seed for reproducibility
 
 # 09_evacuation_simulation
 MODE_SPEED_KMH = {
