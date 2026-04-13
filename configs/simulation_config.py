@@ -10,7 +10,7 @@ DEFAULT_LANES = 1
 
 # 04_shelters_and_reachability
 SHELTERS_CSV_PATH = "shelter/hatyai_shelters.csv"
-SHELTERS_DEFAULT_CAPACITY = 750
+SHELTERS_DEFAULT_CAPACITY = 9999
 
 # Optional: mirror edges to allow reverse travel in reachability checks
 MAKE_EDGES_BIDIR = True
@@ -20,7 +20,6 @@ MAKE_EDGES_BIDIR = True
 MALE_POPULATION = 2500
 FEMALE_POPULATION = 2500
 TOTAL_POPULATION = MALE_POPULATION + FEMALE_POPULATION
-HOUSEHOLDS = 3535
 
 # 06_evacuation_destination
 OUT_CITY_FRAC = 0
