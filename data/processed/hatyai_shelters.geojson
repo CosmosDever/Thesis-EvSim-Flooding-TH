@@ -3,10 +3,12 @@
 "name": "hatyai_shelters",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "name": "โรงเรียนเทศบาล 1 (เอ็งเสียงสามัคคี)", "lat": 7.0161680024489472, "lon": 100.47009743987697, "capacity": 750 }, "geometry": { "type": "Point", "coordinates": [ 100.470097439876966, 7.016168002448947 ] } },
-{ "type": "Feature", "properties": { "name": "โรงเรียนเทศบาล 2 (บ้านหาดใหญ่)", "lat": 7.002161827619938, "lon": 100.46069209569502, "capacity": 750 }, "geometry": { "type": "Point", "coordinates": [ 100.460692095695023, 7.002161827619938 ] } },
-{ "type": "Feature", "properties": { "name": "โรงเรียนเทศบาล 3 (โศภนพิทยาคุณานุสรณ์)", "lat": 7.0202871125409443, "lon": 100.49496894516454, "capacity": 750 }, "geometry": { "type": "Point", "coordinates": [ 100.494968945164544, 7.020287112540944 ] } },
-{ "type": "Feature", "properties": { "name": "โรงเรียนเทศบาล 4 (วัดคลองเรียน)", "lat": 6.9989464858725912, "lon": 100.48661537058094, "capacity": 750 }, "geometry": { "type": "Point", "coordinates": [ 100.486615370580935, 6.998946485872591 ] } },
-{ "type": "Feature", "properties": { "name": "โรงเรียนนานาชาติเซาท์เทิร์น หาดใหญ่", "lat": 7.0245264243366963, "lon": 100.45590208405886, "capacity": 750 }, "geometry": { "type": "Point", "coordinates": [ 100.455902084058863, 7.024526424336696 ] } }
+{ "type": "Feature", "properties": { "name": "โรงเรียนเทศบาล 1 (เอ็งเสียงสามัคคี)", "lat": 7.0161680024489472, "lon": 100.47009743987697, "capacity": 9999 }, "geometry": { "type": "Point", "coordinates": [ 100.470097439876966, 7.016168002448947 ] } },
+{ "type": "Feature", "properties": { "name": "โรงเรียนเทศบาล 2 (บ้านหาดใหญ่)", "lat": 7.002161827619938, "lon": 100.46069209569502, "capacity": 9999 }, "geometry": { "type": "Point", "coordinates": [ 100.460692095695023, 7.002161827619938 ] } },
+{ "type": "Feature", "properties": { "name": "โรงเรียนเทศบาล 3 (โศภนพิทยาคุณานุสรณ์)", "lat": 7.0202871125409443, "lon": 100.49496894516454, "capacity": 9999 }, "geometry": { "type": "Point", "coordinates": [ 100.494968945164544, 7.020287112540944 ] } },
+{ "type": "Feature", "properties": { "name": "โรงเรียนเทศบาล 4 (วัดคลองเรียน)", "lat": 6.9989464858725912, "lon": 100.48661537058094, "capacity": 9999 }, "geometry": { "type": "Point", "coordinates": [ 100.486615370580935, 6.998946485872591 ] } },
+{ "type": "Feature", "properties": { "name": "โรงเรียนนานาชาติเซาท์เทิร์น หาดใหญ่", "lat": 7.0245264243366963, "lon": 100.45590208405886, "capacity": 9999 }, "geometry": { "type": "Point", "coordinates": [ 100.455902084058863, 7.024526424336696 ] } },
+{ "type": "Feature", "properties": { "name": "มหาวิทยาลัยสงขลานครินทร์", "lat": 7.0084220155816004, "lon": 100.49627523435731, "capacity": 9999 }, "geometry": { "type": "Point", "coordinates": [ 100.496275234357313, 7.0084220155816 ] } },
+{ "type": "Feature", "properties": { "name": "มหาวิทยาลัยหาดใหญ่", "lat": 6.982193283160905, "lon": 100.46699000040458, "capacity": 9999 }, "geometry": { "type": "Point", "coordinates": [ 100.466990000404579, 6.982193283160905 ] } }
 ]
 }
