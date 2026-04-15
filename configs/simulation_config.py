@@ -50,9 +50,7 @@ DEFAULT_MODE_SPEED_KMH = {
     "drive": 50.0  # urban driving 40–60 km/h
 }
 
+IMPASSABLE_FLOOD_DEPTH = 1.2
+E = 2.71828
 
-MODE_IMPASSABLE_FLOOD_DEPTH = {
-    "walk": 1.5,
-    "drive": 0.5
-}
 BIDIR_EVAC = True
