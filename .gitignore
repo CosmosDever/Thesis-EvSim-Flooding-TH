@@ -6,5 +6,6 @@ venv/
 
 data/processed/*
 !data/processed/*.geojson
+!data/processed/flood_depth_*.csv
 data/result
 notebooks_executed
