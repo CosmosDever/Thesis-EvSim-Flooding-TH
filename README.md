@@ -57,25 +57,17 @@ After the initial run, you can execute only specific steps by editing the notebo
 To skip steps, comment them out:
 ```
 notebooks = [
-    # "notebooks/01_data_preparation.ipynb",
+    # "notebooks/01_data_preparation.ipynb", # only need run once after cloning the repo
     # "notebooks/02_graph_construction.ipynb",
     # "notebooks/03_network_capacity.ipynb",
-    "notebooks/04_shelters_and_reachability.ipynb",
-    "notebooks/05_population_assignment.ipynb",
-    "notebooks/06_flood_attachment.ipynb",
-    "notebooks/07_flood_time_interpolation.ipynb",
+    # "notebooks/04_shelters_and_reachability.ipynb",
+    # "notebooks/05_population_assignment.ipynb",
+    "notebooks/06_exits_evacuation.ipynb",
+    "notebooks/07_flood_attachment.ipynb",
     "notebooks/08_transportation_model.ipynb",
     "notebooks/09_evacuation_simulation.ipynb",
+    "notebooks/10_visualization.ipynb"
 ]
-```
-
-### Visualizing Results
-
-To visualize simulation outputs, use: `notebooks/10_visualization.ipynb`
-
-Set the result folder name:
-```
-RESULT_FOLDER_NAME = "your_result_folder_name"
 ```
 
 ### Running Individual Notebooks

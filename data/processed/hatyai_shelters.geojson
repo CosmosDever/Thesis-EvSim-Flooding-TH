@@ -8,7 +8,6 @@
 { "type": "Feature", "properties": { "name": "โรงเรียนเทศบาล 3 (โศภนพิทยาคุณานุสรณ์)", "lat": 7.0202871125409443, "lon": 100.49496894516454, "capacity": 9999 }, "geometry": { "type": "Point", "coordinates": [ 100.494968945164544, 7.020287112540944 ] } },
 { "type": "Feature", "properties": { "name": "โรงเรียนเทศบาล 4 (วัดคลองเรียน)", "lat": 6.9989464858725912, "lon": 100.48661537058094, "capacity": 9999 }, "geometry": { "type": "Point", "coordinates": [ 100.486615370580935, 6.998946485872591 ] } },
 { "type": "Feature", "properties": { "name": "โรงเรียนนานาชาติเซาท์เทิร์น หาดใหญ่", "lat": 7.0245264243366963, "lon": 100.45590208405886, "capacity": 9999 }, "geometry": { "type": "Point", "coordinates": [ 100.455902084058863, 7.024526424336696 ] } },
-{ "type": "Feature", "properties": { "name": "มหาวิทยาลัยสงขลานครินทร์", "lat": 7.0084220155816004, "lon": 100.49627523435731, "capacity": 9999 }, "geometry": { "type": "Point", "coordinates": [ 100.496275234357313, 7.0084220155816 ] } },
-{ "type": "Feature", "properties": { "name": "มหาวิทยาลัยหาดใหญ่", "lat": 6.982193283160905, "lon": 100.46699000040458, "capacity": 9999 }, "geometry": { "type": "Point", "coordinates": [ 100.466990000404579, 6.982193283160905 ] } }
+{ "type": "Feature", "properties": { "name": "มหาวิทยาลัยสงขลานครินทร์", "lat": 7.0084220155816004, "lon": 100.49627523435731, "capacity": 9999 }, "geometry": { "type": "Point", "coordinates": [ 100.496275234357313, 7.0084220155816 ] } }
 ]
 }

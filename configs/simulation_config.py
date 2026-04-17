@@ -21,8 +21,9 @@ MALE_POPULATION = 2500
 FEMALE_POPULATION = 2500
 TOTAL_POPULATION = MALE_POPULATION + FEMALE_POPULATION
 
-# 06_evacuation_destination
-OUT_CITY_FRAC = 0
+# 06_exits_evacuation
+ENABLE_EXIT_EVACUATION = False
+EXITS_CSV_PATH = "exit/hatyai_exits.csv"
 
 # 07_flood_attachment
 N_JOBS = 24
@@ -50,7 +51,7 @@ DEFAULT_MODE_SPEED_KMH = {
     "drive": 50.0  # urban driving 40–60 km/h
 }
 
-IMPASSABLE_FLOOD_DEPTH = 1.2
+IMPASSABLE_FLOOD_DEPTH = 1
 E = 2.71828
 
 BIDIR_EVAC = True
