@@ -9,11 +9,11 @@ RESULT_FOLDER_NAME = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
 notebooks = [
     # "notebooks/01_data_preparation.ipynb", # only need run once after cloning the repo
-    "notebooks/02_graph_construction.ipynb",
-    "notebooks/03_network_capacity.ipynb",
-    "notebooks/04_shelters_and_reachability.ipynb",
-    "notebooks/05_population_assignment.ipynb",
-    "notebooks/06_evacuation_destinations.ipynb",
+    # "notebooks/02_graph_construction.ipynb",
+    # "notebooks/03_network_capacity.ipynb",
+    # "notebooks/04_shelters_and_reachability.ipynb",
+    # "notebooks/05_population_assignment.ipynb",
+    "notebooks/06_exits_evacuation.ipynb",
     "notebooks/07_flood_attachment.ipynb",
     "notebooks/08_transportation_model.ipynb",
     "notebooks/09_evacuation_simulation.ipynb",
