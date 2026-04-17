@@ -1,5 +1,8 @@
 # This config is used inside notebooks directory, so the path should start inside notebooks/
 
+# 01_data_preparation
+GRIDCODE_TO_DEPTH = {0: 0.0, 1: 0.5, 2: 1.0, 3: 1.5, 4: 2.0, 5: 2.5}
+
 # Seed for reproducibility
 # Used by population_assignment and transportation_model notebook
 RANDOM_SEED = 12345
@@ -27,20 +30,19 @@ EXITS_CSV_PATH = "exit/hatyai_exits.csv"
 
 # 07_flood_attachment
 N_JOBS = 24
-# Path start at data/raw/
-RAW_FLOOD_CONFIG = [
+# Path start at data/
+FLOOD_CONFIG = [
     {
-        "path": "flood/so.csv",
+        "path": "raw/flood/so.csv",
         "timestamp": "2025-11-21 06:00:00",
     },
     {
-        "path": "flood/bc5_20251124_2200.csv",
+        "path": "processed/flood_depth_bc5_20251124_2200.csv",
         "timestamp": "2025-11-24 22:00:00",
     },
 ]
 # h or min
-TIME_STEP_FREQ = "1h"
-GRIDCODE_TO_DEPTH = {0: 0.0, 1: 0.5, 2: 1.0, 3: 1.5, 4: 2.0, 5: 2.5}
+TIME_STEP_FREQ = "5min"
 
 # 08_transportation_model
 TRANSPORTATION_MODE_PROBS = {"walk": 0.2, "drive": 0.8}
