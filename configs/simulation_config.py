@@ -20,8 +20,8 @@ MAKE_EDGES_BIDIR = True
 
 # 05_population_assignment
 # male: 64864, female: 75987, total: 140851, household: 70703
-MALE_POPULATION = 2500
-FEMALE_POPULATION = 2500
+MALE_POPULATION = 500
+FEMALE_POPULATION = 500
 TOTAL_POPULATION = MALE_POPULATION + FEMALE_POPULATION
 
 # 06_exits_evacuation
@@ -42,7 +42,7 @@ FLOOD_CONFIG = [
     },
 ]
 # h or min
-TIME_STEP_FREQ = "5min"
+TIME_STEP_FREQ = "2h"
 
 # 08_transportation_model
 TRANSPORTATION_MODE_PROBS = {"walk": 0.2, "drive": 0.8}
