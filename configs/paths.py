@@ -17,3 +17,4 @@ PROJECT_ROOT = get_project_root()
 DATA_DIR = PROJECT_ROOT / "data"
 PROCESSED_DIR = DATA_DIR / "processed"
 RAW_DIR = DATA_DIR / "raw"
+RESULT_DIR = DATA_DIR / "result"

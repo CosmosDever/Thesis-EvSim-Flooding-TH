@@ -13,15 +13,15 @@ DEFAULT_LANES = 1
 
 # 04_shelters_and_reachability
 SHELTERS_CSV_PATH = "shelter/hatyai_shelters.csv"
-SHELTERS_DEFAULT_CAPACITY = 9999
+SHELTERS_DEFAULT_CAPACITY = 1000
 
 # Optional: mirror edges to allow reverse travel in reachability checks
 MAKE_EDGES_BIDIR = True
 
 # 05_population_assignment
 # male: 64864, female: 75987, total: 140851, household: 70703
-MALE_POPULATION = 2500
-FEMALE_POPULATION = 2500
+MALE_POPULATION = 10000
+FEMALE_POPULATION = 10000
 TOTAL_POPULATION = MALE_POPULATION + FEMALE_POPULATION
 
 # 06_exits_evacuation
@@ -42,7 +42,7 @@ FLOOD_CONFIG = [
     },
 ]
 # h or min
-TIME_STEP_FREQ = "5min"
+TIME_STEP_FREQ = "10min"
 
 # 08_transportation_model
 TRANSPORTATION_MODE_PROBS = {"walk": 0.2, "drive": 0.8}
@@ -51,6 +51,11 @@ TRANSPORTATION_MODE_PROBS = {"walk": 0.2, "drive": 0.8}
 DEFAULT_MODE_SPEED_KMH = {
     "walk": 5.0,   # walking 4–5 km/h
     "drive": 50.0  # urban driving 40–60 km/h
+}
+# minimum flood depth to be using speed formular
+MIN_FLOOD_DEPTH = {
+    "walk": 0.0008,
+    "drive": 0.06
 }
 
 IMPASSABLE_FLOOD_DEPTH = 1
