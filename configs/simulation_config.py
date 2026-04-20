@@ -34,7 +34,7 @@ N_JOBS = 24
 FLOOD_CONFIG = [
     {
         "path": "raw/flood/so.csv",
-        "timestamp": "2025-11-22 06:00:00",
+        "timestamp": "2025-11-21 06:00:00",
     },
     {
         "path": "processed/flood_depth_bc5_20251124_2200.csv",
