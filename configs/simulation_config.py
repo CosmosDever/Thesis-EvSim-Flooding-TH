@@ -13,7 +13,7 @@ DEFAULT_LANES = 1
 
 # 04_shelters_and_reachability
 SHELTERS_CSV_PATH = "shelter/hatyai_shelters.csv"
-SHELTERS_DEFAULT_CAPACITY = 100000
+SHELTERS_DEFAULT_CAPACITY = 1000
 
 # Optional: mirror edges to allow reverse travel in reachability checks
 MAKE_EDGES_BIDIR = True
