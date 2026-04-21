@@ -10,3 +10,4 @@ shapely
 lxml
 scipy # optional dependenct for osmnx
 papermill
+imageio[ffmpeg]
